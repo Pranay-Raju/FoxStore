@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.niit.dao.CustomerDao;
 import com.niit.model.Customer;
+
 @Service
 public class CustomerServiceImpl implements CustomerService {
 	@Autowired
@@ -16,5 +17,9 @@ private CustomerDao customerDao;
 	}
 	public List<Customer> getCustomers() {
 		return customerDao.getCustomers();
+	}
+	public Customer getCustomerByUsername(String username) {
+		// TODO Auto-generated method stub
+		return customerDao.getCustomerByUsername(username);
 	}
 }

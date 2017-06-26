@@ -5,13 +5,23 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="url" %>
 <%@ page isELIgnored="false" %>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<style>
+ body {
+        background-color: #444;
+        background: url(http://0.s3.envato.com/files/52598769/Alcohol%20a%20background590.jpg);
+        
+    }
+.vertical-offset-100{
+    padding-top:100px;
+}
+</style>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
-<%@ include file="header-admin.jsp" %>
+<%@ include file="header.jsp" %>
 Category Details<br>
 
 Category ID:   	 ${Category.cId }					<br>

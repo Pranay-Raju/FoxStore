@@ -87,7 +87,3 @@ public class CategoryController
 		return "redirect:/admin/category/categoryform";
 	}
 }
-
-
-
-
